@@ -1,7 +1,7 @@
 {
-  "name": "vanillajs-datepicker",
-  "version": "1.1.4",
-  "description": "A vanilla JavaScript remake of bootstrap-datepicker for Bulma and other CSS frameworks",
+  "name": "diosai-datepicker",
+  "version": "0.0.1",
+  "description": "opiniated datepicker modified for diosai forked from vanillajs-datepicker",
   "module": "js/main.js",
   "exports": {
     ".": "./js/main.js",
