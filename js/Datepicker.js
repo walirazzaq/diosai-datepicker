@@ -379,6 +379,7 @@ export default class Datepicker {
     getDisplayDate(format = undefined) {
         format = format ? format : this.config.displayFormat
         let formated = this.getDate(format)
+        formated = Array.isArray(formated) ? formated : [formated]
         let separator = " , "
         if (this.config.isRange) {
             separator = " to "
